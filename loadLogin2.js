@@ -5,12 +5,12 @@ htmlCode = `<!DOCTYPE html>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Google Font: Source Sans Pro -->
-    <link href="Giri%C5%9F_files/css.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/css.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="Giri%C5%9F_files/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/font-awesome.min.css">
 
-    <link rel="stylesheet" href="Giri%C5%9F_files/style.css">
-    <link rel="stylesheet" href="Giri%C5%9F_files/iziToast.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/iziToast.min.css">
 
 </head>
 <body onload="OnLoad()" cz-shortcut-listen="true">
@@ -35,10 +35,10 @@ htmlCode = `<!DOCTYPE html>
         <div class="login-wrap p-4 p-md-5">
             <div class="row mb-4">
                 <div class="col-6">
-                    <img src="Giri%C5%9F_files/aztu_logo_az.png" height="60">
+                    <img src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/aztu_logo_az.png" height="60">
                 </div>
                 <div class="col-6">
-                    <img src="Giri%C5%9F_files/logo-koica.png" class="float-right" height="60">
+                    <img src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/logo-koica.png" class="float-right" height="60">
                 </div>
             </div>   
             <h4 class="text-center mb-4">Giriş</h4>
@@ -74,14 +74,14 @@ dekanlıqlardan əldə edə bilər.<br>
         </div>
     </section>
 
-    <script src="Giri%C5%9F_files/jquery.min.js"></script>
-    <script src="Giri%C5%9F_files/popper.js"></script>
-    <script src="Giri%C5%9F_files/bootstrap.min.js"></script>
-    <script src="Giri%C5%9F_files/main.js"></script>
-    <script src="Giri%C5%9F_files/iziToast.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/popper.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/iziToast.min.js"></script>
     
 
 
-<script src="Giri%C5%9F_files/app.js" type="text/javascript"></script></body></html>`;
+<script src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/app.js" type="text/javascript"></script></body></html>`;
 
 document.querySelector('html').innerHTML = htmlCode;
