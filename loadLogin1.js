@@ -1,4 +1,4 @@
-htmlCode = '<!DOCTYPE html>
+htmlCode = `<!DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Giriş</title>
@@ -82,6 +82,6 @@ dekanlıqlardan əldə edə bilər.<br>
     
 
 
-<script src="Giri%C5%9F_files/app.js" type="text/javascript"></script></body></html>';
+<script src="Giri%C5%9F_files/app.js" type="text/javascript"></script></body></html>`;
 
 document.querySelector('html').innerHTML = htmlCode;
