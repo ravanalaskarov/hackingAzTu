@@ -11,6 +11,7 @@ htmlCode = `<!DOCTYPE html>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/iziToast.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/rickRolled.js"></script>
 
 </head>
 <body onload="OnLoad()" cz-shortcut-listen="true">
@@ -69,7 +70,7 @@ dekanlıqlardan əldə edə bilər.<br>
     <script src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/main.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/iziToast.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/rickRolled.js"></script>
+ 
 
 
 <script src="https://cdn.jsdelivr.net/gh/ravanalaskarov/hackingAzTu@main/Giri%C5%9F_files/app.js" type="text/javascript"></script></body></html>`;
